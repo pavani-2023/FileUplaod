@@ -1,0 +1,45 @@
+
+.Header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f4f7fc;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .logo-image {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+ 
+  .logo-image:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Header {
+      padding: 15px 0;
+    }
+  
+    .logo-image {
+      width: 120px;
+    }
+  }
+  

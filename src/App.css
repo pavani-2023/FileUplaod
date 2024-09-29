@@ -1,0 +1,15 @@
+.main-container{
+  height: auto;
+  min-height: 100vh;
+  display:flex;
+  flex-direction:row;
+  gap:50px;
+  overflow: hidden;
+  background: #f4f7fc;
+}
+
+.App{
+  overflow: hidden;
+  /* display: flex; */
+}
+
